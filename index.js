@@ -29,7 +29,7 @@ export const SignInWithAppleButton = ({buttonText = '', callBack, buttonStyle={b
   }
    
 }
-const appleAuth = async (callBack) => {
+export const appleAuth = async (callBack) => {
   await AppleAuthentication.requestAsync({
     requestedScopes: [AppleAuthentication.Scope.FULL_NAME, AppleAuthentication.Scope.EMAIL],
   }).then((response) => {
