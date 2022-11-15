@@ -1,7 +1,7 @@
 {
   "name": "react-native-apple-authentication-go",
   "title": "React Native Apple Authentication",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "react-native native module for Apple Login",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
+    "react": ">=16.8.1",
     "react-native": ">=0.59.0-rc.0 <1.0.x"
   },
   "devDependencies": {
